@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<style>
+/* Paradise Effect */
+        .paradise {
+            background-image: url('p.jpg');
+            background-attachment: fixed; /* Paradise effect */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh; /* Full viewport height */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Content sections */
+        .section {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* Smooth Scroll */
+        html, body {
+            scroll-behavior: smooth;
+        }
+
+        /* Optional: Style for the navigation */
+        .navbar {
+            margin-bottom: 0;
+        }
+
+        .navbar-nav li a {
+            color: #fff !important;
+        }
+
+        /* Icon Section */
+        .icon-box {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+            padding: 30px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 200px;
+        }
+
+        .icon-box i {
+            font-size: 3em;
+            color: #5bc0de;
+        }
+
+        .icon-box h3 {
+            font-size: 1.5em;
+            margin-top: 15px;
+        }
+</style>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Paradise Website</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#section1">Home</a></li>
+      <li><a href="#section2">About</a></li>
+      <li><a href="#section3">portfolo</a></li>
+      <li><a href="#section4">contact</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- Paradise Section -->
+<div id="section1" class="paradise">
+	<div>
+		<h1>Welcome to my Website</h1>
+		<p>Your tagline or introduction goes here.</p>
+	</div>
+</div>
+
+<div id="section2" class="section">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="icon-box">
+            	<span class="glyphicon glyphicon-refresh" style="font-size:
+            	.32px"></span>
+
+                <h3>Custom Solutions</h3>
+                <p>We provide custom solutions tailored to your needs.</p>
+            </div>
+            <div class="icon-box">
+            	<span class="glyphicon glyphicon-user" style="font-size:
+            	.32px"></span>
+                
+                <h3>Dedicated Team</h3>
+                <p>Our team is committed to bringing your vision to life.</p>
+            </div>
+            <div class="icon-box">
+            	<span class="glyphicon glyphicon-cloud" style="font-size:
+            	.32px"></span>
+                
+                <h3>Cloud-Based</h3>
+                <p>We leverage cloud technology to enhance your business operations.</p>
+            </div>
+        </div>
+    </div>
+    <div id="section3" class="paradise">
+    <div class="container text-center">
+        <h1>Our Portfolio</h1>
+        <p>Showcase some of the work you've done or projects completed.</p>
+        <div class="row">
+            <!-- Portfolio Image 1 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="n.jpg" alt="Project 1" class="img-thumbnail">
+                    <div class="overlay">
+                        <p>Project 1 Description</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Image 2 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="s.jpg" alt="Project 2" class="img-thumbnail">
+                    <div class="overlay">
+                        <p>Project 2 Description</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Image 3 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="h.jpg" alt="Project 3" class="img-thumbnail">
+                    <div class="overlay">
+                        <p>Project 3 Description</p>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+<!--Section4-->
+<div id="section4" class="paradise">
+	<div class="container text-center">
+		<h1>Contact us</h1>
+		<meta charset="UTF-8">
+    <link href="cdn.jsdelivr.net" rel="stylesheet">
+    <title>Easy Contact Form</title>
+</head>
+<body class="bg-light p-5">
+
+<div class="container bg-white p-4 shadow-sm" style="max-width: 500px; border-radius: 8px;">
+    <h3 class="mb-4">Send a Message</h3>
+    <form>
+        <div class="mb-3">
+            <label class="form-label">FullName</label>
+            <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+        
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Address</label>
+            <textarea class="form-control" placeholder="Your Address" rows="2"></textarea>
+        
+        <div class="mb-4">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" rows="3"></textarea>
+        </div>
+        
+        <button type="submit" class="btn btn-primary w-100">Send</button>
+    </form>
+</div>
+
+
+
+
+</body>
+</html>
